@@ -1,0 +1,100 @@
+html{font-size: 65%;}
+
+body {
+  padding-top: 70px;
+}
+
+a{
+  color: black;
+  font-weight: bold;
+}
+a:hover{
+  transition: 0.7s;
+  text-decoration: none;
+}
+
+.starter-template {
+  margin: 4rem 1.5rem;
+  text-align: center;
+}
+
+
+.fond{
+  background-color: #28a745 !important;
+  border-color: #28a745 !important;
+}
+
+
+
+
+/* --------- NAV --------- */
+
+nav a:hover{color: #28a745 !important;}
+
+
+
+
+/* --------- INDEX --------- */
+
+.index a:hover{color: #28a745 !important;}
+
+
+
+
+/* --------- PROFIL --------- */
+
+.profil a:hover{color: #28a745 !important;}
+
+
+
+
+/* --------- ADMINISTRATION --------- */
+
+.administration .pad{
+  padding-top: 1.6rem;
+  padding-bottom: 1.6rem;
+}
+
+
+
+/* --------- FICHE SALLE --------- */
+
+.reservation a:hover{
+  color: white!important;
+}
+
+.commentaire{
+  border: solid 1px grey;
+  border-radius: 0.25rem;
+}
+
+
+
+
+/* --------- FOOTER --------- */
+
+footer a{color: white;}
+footer a:hover{color: #28a745;}
+
+
+
+
+
+/* --------- RESPONSIVE --------- */
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+    html{font-size: 64%;}
+
+}
+
+@media (min-width: 992px) {
+    html{font-size: 85%;}
+}
+
+@media (min-width: 1200px) {
+    html{font-size: 100%;}
+
+}
